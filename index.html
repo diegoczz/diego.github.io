@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="nom">Nombre: </label><input type="text" id="nom" name="nom">
+            <br>
+            <label for="pass">Contraseña: </label><input type="password" id="pass" name="pass">
+            <br>
+            <label for="email">Correo Electrónico: </label><input type="email" id="email" name="email">
+            <br>
+            <label for="url">URL: </label><input type="url" id="url" name="url">
+            <br>
+            <label for="fecha">Fecha: </label><input type="date" id="fecha" name="fecha">
+            <br>
+            <label for="time">Tiempo: </label><input type="time" id="time" name="time">
+            <br>
+            <label for="num">Número (min -10, max 10): </label><input type="number" id="num" name="email" min="-10" max="10">
+            <br>
+            <label for="tel">Teléfono: </label><input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-" required>
+            <br>
+            <label for="busqueda">Término de Búsqueda: </label><input type="search" id="busqueda" name="busqueda" placeholder="Buscar...">
+            <br>
+            <label for="color">Color Favorito: </label><input type="color" id="color" name="color">
+            <br>
+            <label for="so">Sistema Operativo: </label>
+            <select name="so" id="so">
+                    <option value="windows">Windows</option>
+                    <option value="linux">Linux</option>
+                    <option value="macos">MacOS</option>
+            </select>
+            <br>
+            <label for="lan">Que lenguage de programacion conoces?: </label>
+            <label><input type="checkbox" checked="checked" id="lan" name="lan" value="html">Html5</label>
+            <label><input type="checkbox" checked="checked" id="lan2" name="lan2" value="css">Css3</label>
+            <label><input type="checkbox" id="lan3" name="lan3" value="java">JavaScript</label>
+            <label><input type="checkbox" id="lan4" name="lan4" value="php">Php</label>
+            <label><input type="checkbox" id="lan" name="lan" value="python">Python</label>
+            <br>
+            <label for="py">Sabes utilizar Python?: </label>
+            <input type="radio" id="si" name="si" value="si" checked="checked">
+            <label for="si">Si</label>
+            <input type="radio" id="no" name="no" value="no">
+            <label for="no">No</label>
+            <br>
+            <label for="comentarios">Comentarios: </label><textarea name="comentarios" rows="5" cols="50"></textarea>
+        </form>
+    </body>
+</html>
