@@ -1,0 +1,82 @@
+#hero-banner {
+    background-image: url('images/hero.gif'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+}
+
+body {
+    margin:0;
+    display:inline-grid;
+    background-image: url('images/fondo.jpg');
+}
+
+#hero-banner h2 {
+    font-size: 2em;
+    color: #ffffff;
+    background-position: center;
+    text-align: center;
+    transform: translateY(20vh); 
+    font-size:800%;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero-banner p {
+    max-width: 800px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+    transform: translateY(20vh); 
+    font-size:x-large;
+    color: #3e3e3e;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #5f5c5c;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+article h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
